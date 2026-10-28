@@ -1,0 +1,134 @@
+{
+  "features" : [
+    "refractivity",
+    "specular-location"
+  ],
+  "fill" : {
+    "linear-gradient" : [
+      "display-p3:0.17619,0.42937,0.72592,1.00000",
+      "display-p3:0.29045,0.10853,0.55910,1.00000"
+    ]
+  },
+  "groups" : [
+    {
+      "blend-mode" : "normal",
+      "blur-material" : 1,
+      "hidden" : false,
+      "layers" : [
+        {
+          "image-name" : "8-glints.svg",
+          "name" : "8-glints",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              8,
+              34
+            ]
+          }
+        },
+        {
+          "image-name" : "7-time.svg",
+          "name" : "7-time",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              8,
+              34
+            ]
+          }
+        },
+        {
+          "image-name" : "6-orrery.svg",
+          "name" : "6-orrery",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              8,
+              34
+            ]
+          }
+        },
+        {
+          "image-name" : "5-eye-sockets.svg",
+          "name" : "5-eye-sockets",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              8,
+              34
+            ]
+          }
+        },
+        {
+          "image-name" : "4-brow-beak.svg",
+          "name" : "4-brow-beak",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              8,
+              34
+            ]
+          }
+        },
+        {
+          "image-name" : "3-face-disc.svg",
+          "name" : "3-face-disc",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              8,
+              34
+            ]
+          }
+        },
+        {
+          "image-name" : "2-feathers.svg",
+          "name" : "2-feathers",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              8,
+              34
+            ]
+          }
+        },
+        {
+          "blend-mode" : "screen",
+          "glass" : true,
+          "hidden" : false,
+          "image-name" : "1-owl.svg",
+          "name" : "1-owl",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              8,
+              34
+            ]
+          }
+        }
+      ],
+      "lighting" : "combined",
+      "opacity" : 1,
+      "refractivity" : {
+        "depth" : 0.5,
+        "enabled" : true,
+        "strength" : 0
+      },
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 2
+      },
+      "specular" : "inside",
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}
